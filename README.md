@@ -97,7 +97,7 @@ And the resulting HTML:
 ```
 <h1>My Todos</h1>
 <ul>
-  <li>learn some dust! - tomorrow</li>
+  <li>learn some dust! - today</li>
   <li>visit the south bay - tomorrow</li>
 </ul>
 ```
