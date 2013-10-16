@@ -13,9 +13,7 @@ The pre-compiled JS is ready to go - just open `index.html` in the browser and f
 
 ## How It Works
 
-DustJS templates should be saved to `src/dusts` as `*.dust` files.  DustJS templates are compiled into `*.js` files - use [duster.js](https://github.com/dmix/dusterjs) to auto compile your templates to `templates/compiled/*.js`
-
-* I've configured the source and compiled paths via my [duster.json](https://github.com/ericktai/dust-js-browser/blob/master/duster.json) file.
+DustJS templates should be saved to `src/dusts` as `*.dust` files.  DustJS templates are compiled into `*.js` files - use [duster.js](https://github.com/dmix/dusterjs) to auto compile your templates to `templates/compiled/*.js`.  I've configured the source and compiled paths via my [duster.json](https://github.com/ericktai/dust-js-browser/blob/master/duster.json) file.
 
 You can use your template in `index.html`.  In this example, my template is `todos.dust`, and it was compiled into `todos.js`.  Let's include the template in the page.
 
