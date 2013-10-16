@@ -1,7 +1,7 @@
 dust-js-browser
 ===============
 
-A sample of using [http://akdubya.github.io/dustjs/](DustJS) (non-NodeJS example).
+A sample of using [DustJS](http://akdubya.github.io/dustjs/) (non-NodeJS example).
 
 View the example at http://ericktai.github.io/dust-js-browser/
 
