@@ -5,17 +5,17 @@ A sample of using DustJS (non-NodeJS example)
 
 I created this repo as a reference point on using the DustJS templating library without NodeJS in a "traditional" browser app with script tag inclusions.  The Dust and LinkedIn tutorials didn't really quite describe how to get things running in a regular HTML/JS/Browser app, so this was an exercise in doing so.
 
-# Getting Started
+## Getting Started
 
 The pre-compiled JS is ready to go - just open `index.html` in the browser and find the template at `src/dusts/todos.dust` to see how DustJS works.
 
-# Dependencies
+## Dependencies
 
 You'll need `duster.js` to develop. (https://github.com/dmix/dusterjs)   Duster.js will help you compile the templates to JS.  Like SASS/Compass, you can have `duster.js` watch your dusts folder for changes and auto-compile your templates.
 
 Templates are found in `src/dusts` and are compiled to `templates/compiled`.
 
-# How It Works
+## How It Works
 
 Save your DustJS templates as `*.dust` files in the `src/dusts` folder.  With `duster.js` running (https://github.com/dmix/dusterjs), your template will be autocompiled.
 
