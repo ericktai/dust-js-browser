@@ -9,17 +9,11 @@ I created this repo as a reference point on using the DustJS templating library 
 
 The pre-compiled JS is ready to go - just open `index.html` in the browser and find the template at `src/dusts/todos.dust` to see how DustJS works.
 
-## Dependencies
-
-`duster.js` makes developing DustJS easier. (https://github.com/dmix/dusterjs)   Duster.js will help you compile the templates to JS automatically.  For those of you familiar with SASS/Compass, it's like `compass watch`:  you can have `duster.js` watch your dusts folder for changes and auto-compile your templates.
-
-Templates are found in `src/dusts` and are compiled to `templates/compiled`.
-
 ## How It Works
 
-Save your DustJS templates as `*.dust` files in the `src/dusts` folder.  With `duster.js` running (https://github.com/dmix/dusterjs), your template will be autocompiled by `duster.js`.  (I assume you have `duster.js` running)  The output file will be a `*.js` file.
+DustJS templates should be saved to `src/dusts` as `*.dust` files.  `duster.js`  (https://github.com/dmix/dusterjs) will auto compile your templates to `templates/compiled/*.js`
 
-You can use your template in `index.html`.  In this example, my template is `todos.dust`, and it was compiled into `todos.js`.  So let's include the template in the page.
+You can use your template in `index.html`.  In this example, my template is `todos.dust`, and it was compiled into `todos.js`.  Let's include the template in the page.
 
 ```js
 <script type="text/javascript" src="http://codeorigin.jquery.com/jquery-1.10.2.min.js"></script>
