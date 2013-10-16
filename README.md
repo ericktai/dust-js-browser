@@ -7,7 +7,7 @@ I created this repo so that I'd have a reference point on using the DustJS templ
 
 # Getting Started
 
-The pre-compiled JS is ready to go - just open `index.html` in the browser and find the template at `src/dusts/todos.dust`
+The pre-compiled JS is ready to go - just open `index.html` in the browser and find the template at `src/dusts/todos.dust` to see how DustJS works.
 
 # Dependencies
 
