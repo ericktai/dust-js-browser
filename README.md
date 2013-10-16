@@ -17,7 +17,7 @@ Templates are found in `src/dusts` and are compiled to `templates/compiled`.
 
 ## How It Works
 
-Save your DustJS templates as `*.dust` files in the `src/dusts` folder.  With `duster.js` running (https://github.com/dmix/dusterjs), your template will be autocompiled.  The output file will be a `*.js` file.
+Save your DustJS templates as `*.dust` files in the `src/dusts` folder.  With `duster.js` running (https://github.com/dmix/dusterjs), your template will be autocompiled by `duster.js`.  (I assume you have `duster.js` running)  The output file will be a `*.js` file.
 
 You can use your template in `index.html`.  In this example, my template is `todos.dust`, and it was compiled into `todos.js`.  So let's include the template in the page.
 
