@@ -11,7 +11,7 @@ The pre-compiled JS is ready to go - just open `index.html` in the browser and f
 
 ## Dependencies
 
-`duster.js` makes developer DustJS easier. (https://github.com/dmix/dusterjs)   Duster.js will help you compile the templates to JS automatically.  For those of you familiar with SASS/Compass, it's like `compass watch`:  you can have `duster.js` watch your dusts folder for changes and auto-compile your templates.
+`duster.js` makes developing DustJS easier. (https://github.com/dmix/dusterjs)   Duster.js will help you compile the templates to JS automatically.  For those of you familiar with SASS/Compass, it's like `compass watch`:  you can have `duster.js` watch your dusts folder for changes and auto-compile your templates.
 
 Templates are found in `src/dusts` and are compiled to `templates/compiled`.
 
