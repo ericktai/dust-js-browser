@@ -39,7 +39,7 @@ The template runs against JSON that you pass in.  Here's my JSON data with two `
   todos: [
     {
       action: 'learn some dust!',
-      duedate: 'tomorrow'
+      duedate: 'today'
     },
     {
       action: 'visit the south bay',
