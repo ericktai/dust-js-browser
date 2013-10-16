@@ -1,0 +1,35 @@
+<html>
+<head>
+	<title></title>
+	<script type="text/javascript" src="http://codeorigin.jquery.com/jquery-1.10.2.min.js"></script>
+	<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.8/require.min.js"></script>
+	<script type="text/javascript" src="dust-core-2.0.3.js"></script>
+	<script type="text/javascript" src="templates/compiled/todos.js"></script>
+</head>
+<body>
+	<div id="content">
+		
+		
+
+	</div>
+
+	<script type="text/javascript">
+	/* <![CDATA[ */ 
+	dust.render("todos", {
+		listname: 'My Todos',
+		todos: [
+			{
+				action: 'learn some dust!',
+				duedate: 'tomorrow'
+			},
+			{
+				action: 'visit the south bay',
+				duedate: 'tomorrow'
+			}
+		]
+	}, function(err, out) {
+	  $('#content').html(out);
+	});
+	/* ]]> */</script>
+</body>
+</html>

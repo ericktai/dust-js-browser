@@ -1,0 +1,6 @@
+<h1>{listname}</h1>
+<ul>
+{#todos}
+	<li>{action} - {duedate}</li>{~n}
+{/todos}
+</ul>
