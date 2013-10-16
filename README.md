@@ -92,6 +92,16 @@ Here's the `*.dust` template so you can see how the JSON binds to it:
 </ul>
 ```
 
+And the resulting HTML:
+
+```
+<h1>My Todos</h1>
+<ul>
+  <li>learn some dust! - tomorrow</li>
+  <li>visit the south bay - tomorrow</li>
+</ul>
+```
+
 ## More Information
 
 Read more about DustJS at the LinkedIn Dust Tutorial: https://github.com/linkedin/dustjs/wiki/Dust-Tutorial
