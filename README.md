@@ -81,6 +81,17 @@ dust.render("todos", {
 });
 ```
 
+Here's the `*.dust` template so you can see how the JSON binds to it:
+
+```
+<h1>{listname}</h1>
+<ul>
+{#todos}
+	<li>{action} - {duedate}</li>{~n}
+{/todos}
+</ul>
+```
+
 ## More Information
 
 Read more about DustJS at the LinkedIn Dust Tutorial: https://github.com/linkedin/dustjs/wiki/Dust-Tutorial
