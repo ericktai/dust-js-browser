@@ -57,7 +57,7 @@ dust.render("todos", {
 	todos: [
 		{
 			action: 'learn some dust!',
-			duedate: 'tomorrow'
+			duedate: 'today'
 		},
 		{
 			action: 'visit the south bay',
