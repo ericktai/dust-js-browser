@@ -1,7 +1,9 @@
 dust-js-browser
 ===============
 
-A sample of using DustJS (non-NodeJS example)
+A sample of using DustJS (non-NodeJS example).
+
+View the example at http://ericktai.github.io/dust-js-browser/
 
 I created this repo as a reference point on using the DustJS templating library without NodeJS in a "traditional" browser app with script tag inclusions.  The Dust and LinkedIn tutorials didn't really quite describe how to get things running in a regular HTML/JS/Browser app, so this was an exercise in doing so.
 
