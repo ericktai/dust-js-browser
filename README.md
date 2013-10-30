@@ -11,6 +11,8 @@ I created this repo as a reference point on using the DustJS templating library 
 
 The pre-compiled JS is ready to go - just open `index.html` in the browser and find the template at `src/dusts/todos.dust` to see how DustJS works.
 
+Making changes?  Run `node duster.js` in your root folder on the command line first.  See <a href="https://github.com/dmix/dusterjs#install" target="_blank">duster.js</a> for more info.
+
 ## How It Works
 
 DustJS templates should be saved to `src/dusts` as `*.dust` files.  DustJS templates are compiled into `*.js` files - use [duster.js](https://github.com/dmix/dusterjs) to auto compile your templates to `templates/compiled/*.js`.  I've configured the source and compiled paths via my [duster.json](https://github.com/ericktai/dust-js-browser/blob/master/duster.json) file.
